@@ -1,6 +1,6 @@
 [user]
-    name = Sassoon Kuyumcian
-    email = sassoon.k@gmail.com
+    name = Ivan Ristov
+    email = iristov95@gmail.com
 [core]
     editor = vim
     whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
