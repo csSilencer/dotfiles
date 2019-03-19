@@ -1,5 +1,5 @@
 export ZSH="${HOME}/.oh-my-zsh"
-export DOTFILES="${HOME}/Workspaces/dotfiles"
+export DOTFILES="${HOME}/Workspaces/dotfiles/dotfiles"
 
 ZSH_THEME="af-magic"
 
