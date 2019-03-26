@@ -9,5 +9,5 @@ function init_terraform_creds() {
   export TF_VAR_AWS_ACCESS_KEY_ID=$(aws --profile $1 configure get aws_access_key_id)
   export TF_VAR_AWS_SECRET_ACCESS_KEY=$(aws --profile $1 configure get aws_secret_access_key)
   export TF_VAR_AWS_DEFAULT_REGION=ap-southeast-2
-  echo "Exported AWS_ACC
+  echo "Exported TF_VAR_AWS_ACCESS_KEY_ID, TF_VAR_AWS_SECRET_ACCESS_KEY, TF_VAR_AWS_DEFAULT_REGION"
 }
